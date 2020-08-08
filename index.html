@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container-fluid p-0 m-0">
+      <!-- <input type="number" id="peso" placeholder="Peso" />
+      <input type="number" id="altura" placeholder="Altura" />
+      <button class="btn ver-btn">Ver IMC!</button>
+      <input type="text" id="imc" /> -->
+
+      <div
+        class="row col-lg-12 d-flex justify-content-center align-items-center wrap p-0 m-0"
+      >
+        <div
+          id="receiver"
+          class="col-lg-3 p-0 m-0 d-flex justify-content-center align-items-center flex-column a"
+        >
+          <form class="p-0 m-0 a">
+            <div class="form-group p-0 m-2">
+              <input
+                type="number"
+                class="form-control-lg"
+                id="altura"
+                placeholder="Sua Altura"
+              />
+            </div>
+            <div class="form-group p-0 m-2">
+              <input
+                type="number"
+                class="form-control-lg"
+                id="peso"
+                placeholder="Peso"
+              />
+            </div>
+          </form>
+          <button id="btn" class="btn btn-lg ver-btn m-2">Ver IMC!</button>
+
+          <div class="col-lg-3 d-flex justify-content-center p-0 m-0">
+            <div
+              id="imc"
+              class="resultado d-flex justify-content-center align-items-center"
+            >
+              00
+            </div>
+          </div>
+          <div id="status" class="status a text-capitalize">Teste seu peso</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/app.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
